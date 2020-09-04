@@ -6,16 +6,13 @@ OCR (Optical Character Recognition)
 ### Requirements
           1) Tesseract engine is an OCRengine + command line program + libtesseract (needs to be included in the path)
           2) a python package to bind to the engine (pytesseract or tesseract-ocr)
+          3) an image processing libarary required, pillow or opencv, in opencv tesseract path has to be linked ; pillow doesn't require that
 
-.....................................................................Command Line......................................................................................
-tesseract image.extension filename.txt
-.....................................................................Opening the file...................................................................................
-type filename.txt (alternative to cat in unix)
+A simple command line statement would do the job.
+```tesseract image.extension filename.txt
+opening the file --> type filename.txt (alternative to cat in unix)
+```
 
-.....................................................................Program.............................................................................................
-1) an image processing libarary required, pillow or opencv
-in opencv tesseract path has to be linked
-pillow doesn't require that
 
 
 ## II) Extract text from pdf
