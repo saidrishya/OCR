@@ -9,7 +9,8 @@ OCR (Optical Character Recognition)
           3) an image processing libarary required, pillow or opencv, in opencv tesseract path has to be linked ; pillow doesn't require that
 
 A simple command line statement would do the job.
-```tesseract image.extension filename.txt
+```
+tesseract image.extension filename.txt
 opening the file --> type filename.txt (alternative to cat in unix)
 ```
 
